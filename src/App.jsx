@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Project from "./Components/Project";
-import Experience from "./components/Experience";
+import Experience from "./Components/Experience";
 import Header from "./Components/Header";
 import Tools from "./Components/Tools";
 function App() {
