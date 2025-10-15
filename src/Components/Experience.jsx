@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="flex max-w-xl mx-auto sm:px-4  flex-col items-center justify-center shadow  py-5 sm:py-5 ">
+    <div className="flex max-w-xl mx-auto  flex-col items-center justify-center shadow  py-5 ">
       <div className=" shadow hover:scale-105 transition-transform duration-200 ">
         <h1 className="text-lg font-semibold flex text-gray-900  dark:text-white">
           React Frontend Developer (Personal Projects)
