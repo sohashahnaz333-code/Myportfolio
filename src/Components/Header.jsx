@@ -64,7 +64,7 @@ function Header({ selectedTab, setSelectedTab, darkMode, setDarkMode }) {
             onClick={() => setSelectedTab(tab.name)}
             className={`px-1 py-1 rounded-lg transition-all duration-200 ${selectedTab === tab.name
               ? "bg-white text-pink-500 font-semibold shadow-md"
-              : "hover:bg-pink-500 hover:shadow text-white"
+              : "hover:bg-pink-500 hover:shadow text-black dark:text-white"
               }`}
           >
             {tab.label}
