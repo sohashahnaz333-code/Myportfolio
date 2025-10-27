@@ -6,7 +6,7 @@ import { SiVercel, SiMysql } from "react-icons/si";
 
 function ToolItem({ icon, name }) {
   return (
-    <div className="flex flex-col items-center gap-2  ">
+    <div className="flex flex-col max-w-xl mx-auto items-center gap-2 ">
       <div className="text-4xl">{icon}</div>
       <p className="text-sm font-semibold flex  text-gray-900  dark:text-white">{name}</p>
     </div>
