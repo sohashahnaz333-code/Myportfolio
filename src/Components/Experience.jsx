@@ -2,8 +2,11 @@ import React from "react";
 
 function Experience() {
   return (
+    
     <div className="flex max-w-xl mx-auto  flex-col items-center justify-center shadow xs:max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl py-5">
-      <div className=" shadow hover:scale-105 transition-transform duration-200  xs:px-2 sm:px-2 md:px-1 lg:px-11 ">
+    
+      <div className=" shadow hover:scale-105 transition-transform duration-200 iphoneSE:px-2  iphoneXR:px-2 iphone12:px-2 iphone14:px-2 proMax:px-2  md:px-1 lg:px-11">
+      
         <h1 className="text-lg font-semibold flex text-gray-900  dark:text-white">
           React Frontend Developer (Personal Projects)
         </h1>
@@ -47,7 +50,7 @@ function Experience() {
           •	Maintained student records and supported digital communication.
         </p>
       </div>
-      <div className=" shadow hover:scale-105 transition-transform duration-200 xs:px-2  sm:px-2 md:px-1 lg:px-11">
+      <div className=" shadow hover:scale-105 transition-transform duration-200 xs:px-2  iphone14:px-2 md:px-1 lg:px-11">
         <h1 className=" text-base xs:text-lg md:text-xl  font-semibold flex text-gray-900  dark:text-white">
           Graphic Designer / UI-UX Designer
         </h1>

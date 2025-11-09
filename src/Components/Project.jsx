@@ -57,12 +57,12 @@ function Project() {
 
         </div>
       <footer className="w-full pt-20 flex justify-between items-center bg-white dark:bg-black text-gray-800 dark:text-gray-300 transition-colors duration-300">
-        {/* Left side: your name */}
+        {/* Left side */}
         <div className="text-sm">
           Built with React.js
         </div>
 
-        {/* Right side: copyright or message */}
+        {/* Right side */}
         <div className="text-sm">
           © {new Date().getFullYear()} All rights reserved
         </div>
