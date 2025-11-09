@@ -2,31 +2,26 @@
 export default {
   darkMode: 'class',
   content: [
-      "./index.html",
-         "./src/**/*.{js,jsx,ts,tsx}",
-           "./src/*/.{js,ts,jsx,tsx}",
-           "./pages/**/*/.{js,ts,jsx,tsx}",
-         "./components/**/*/.{js,ts,jsx,tsx}",
-      
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-   
-    
     extend: {},
     screens: {
-      android: { 'max': '432px' }, 
-      xs: '375px',     // custom extra small
-      sm: '412px',     
+      iphoneSE: '375px',
+      iphone12: '390px',
+      iphoneXR: '414px',
+      iphone14proMax: '430px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
       '2xl': '1536px',
-      '3xl': '1920px', // custom large screen
+      '3xl': '1920px',
     },
   },
   plugins: [
     require('tailwind-scrollbar-hide'),
   ],
-
-
-}
+};

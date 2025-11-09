@@ -15,9 +15,9 @@ function Header({ selectedTab, setSelectedTab, darkMode, setDarkMode }) {
   ];
 
   return (
-    <header className="max-w-xl sm:max-w-md md:max-w-xl   mx-auto backdrop-blur-md py-4 sm:py-4 ">
+    <header className="max-w-xl mx-auto backdrop-blur-md py-4 ">
       {/* Title */}
-      <h1 className="text-xl font-semibold  mt-2 sm:mt-2 text-black dark:text-white">
+      <h1 className="text-xl font-semibold  mt-2 text-black dark:text-white">
         Hey, I'm Shahnaz
       </h1>
 
