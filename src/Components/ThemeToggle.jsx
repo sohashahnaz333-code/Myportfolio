@@ -5,13 +5,17 @@ function ThemeToggle({ darkMode, setDarkMode }) {
   return (
     <button
       onClick={() => setDarkMode(!darkMode)}
-      className="absolute top-0 right-0 text-lg
-       text-gray-600 dark:text-gray-300 
-       hover:text-yellow-400 dark:hover:text-yellow-300 transition"
+      className="
+        fixed top-3 right-3 p-1
+        
+      "
 
     >
-      
-      {darkMode ? <BsSun /> : <BsMoon />}
+      {darkMode ? (
+        <BsSun size={16}/>   // ☀️ smaller icon
+      ) : (
+        <BsMoon size={16}  />  // 🌙 smaller icon
+      )}
     </button>
   );
 }

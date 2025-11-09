@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Project from "./Components/Project";
-import Experience from "./components/Experience";
+import Experience from "./Components/Experience";
 import Header from "./Components/Header";
 import Tools from "./Components/Tools";
 function App() {
@@ -10,9 +10,9 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       {/* full-screen background container */}
-      <div className="relative flex flex-col items-center  min-h-screen w-screen bg-white text-white dark:bg-[#111] dark:text-white font-sans transition-colors duration-300">
+      <div className="relative flex flex-col items-center  min-h-screen w-screen bg-white text-white  dark:bg-black dark:text-white font-sans transition-colors duration-300 ">
           {/* Header সবসময় টপে */}
-        <div className="flex flex-col justify-center gap-2 pt-2 ">
+        <div className="flex flex-col justify-center gap-2 pt-2 p-4 iphoneSE:p-5  iphoneXR:p-5 iphone12:p-5 iphone14:p-5 proMax:p-5  md:p-8 ">
           <Header
             selectedTab={selectedTab}
             setSelectedTab={setSelectedTab}
@@ -20,9 +20,10 @@ function App() {
             setDarkMode={setDarkMode}
           />
           {/* Main content area */}
-          {selectedTab === "tools" && <Tools/>}
+          {selectedTab === "tools" && <Tools />}
           {selectedTab === "experience" && <Experience />}
           {selectedTab === "projects" && <Project />}
+
 
         </div>
         </div>
